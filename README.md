@@ -1,9 +1,4 @@
----
 
-layout: default
-title: "My Cybersecurity Portfolio"
-description: "ITECH1502 — Cybersecurity Fundamentals student portfolio showcasing vulnerability scanning, incident response and learning reflections."
-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Welcome to My Cybersecurity Portfolio
 
@@ -16,7 +11,7 @@ Hello! I'm **zhiweixie**, a student in Federation University Australia's ITECH15
 * **Email:** zhiweix@students.federation.edu.au
 * **Course:** ITECH1502 — Cybersecurity Fundamentals
 * **Interests:** Vulnerability management, applying NIST CSF 2.0, digital forensics
-* **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) *(replace with your actual profile URL)*
+
 
 ---
 
