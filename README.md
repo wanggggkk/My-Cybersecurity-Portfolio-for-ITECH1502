@@ -10,7 +10,7 @@
 This project serves as the capstone assessment for the Federation University ITECH1502 Cybersecurity Fundamentals unit, demonstrating my ability to apply theoretical knowledge and practical skills. This portfolio acts as a career-ready showcase to strengthen my professional profile for internships or entry-level cybersecurity roles.
 
 **Training Platform:** TryHackMe
-**Challenge Room:** Further Nmap
+**Challenge Room:** Nmap
 **Core Topic:** Network Reconnaissance & Fundamental Vulnerability Scanning
 
 ---
@@ -45,8 +45,7 @@ The practical activity strictly followed a systematic network reconnaissance pro
 ## 🔍 Outcomes & Key Findings
 
 * **Skill Achievement:** Successfully applied Nmap's `-sS` and `-sV` parameters to accurately complete all network reconnaissance tasks on the target host.
-* **Evidence:** ![Uploading d439cfcaf2d5887858234b434538e7c.png…]()
-.
+* **Evidence:** 
 * **Conclusion:** This practice activity successfully consolidated my understanding of the reconnaissance process and the application of basic security measures and tool utilization skills.
 
 ---
@@ -61,9 +60,3 @@ The practical activity strictly followed a systematic network reconnaissance pro
 
 ---
 
-## 📂 Project Structure
-
-* `README.md` (This file): Project overview and summary.
-* `Project_Report.pdf`: The complete project report (Max 5 Pages), containing the full methodology, detailed results, and in-depth reflection.
-* `Evidence/`: Folder containing all watermarked screenshots (with FedUni email) and scan logs.
-* `Presentation/`: Contains the final presentation slides or the unlisted YouTube video link for online students.
