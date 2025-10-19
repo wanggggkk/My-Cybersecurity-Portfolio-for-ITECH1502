@@ -1,94 +1,55 @@
+# ITECH1502 Cybersecurity Fundamentals - Final Project: Cybersecurity Portfolio
 
-
-# Welcome to My Cybersecurity Portfolio
-
-Hello! I'm **zhiweixie**, a student in Federation University Australia's ITECH1502 Cybersecurity Fundamentals course. I'm passionate about exploring cybersecurity through hands-on practice. This portfolio presents projects, skills, and goals from my coursework and labs.
-
----
-
-## About Me
-
-* **Email:** zhiweix@students.federation.edu.au
-* **Course:** ITECH1502 — Cybersecurity Fundamentals
-* **Interests:** Vulnerability management, applying NIST CSF 2.0, digital forensics
-
+## Project Title
+**Mastering Network Reconnaissance: An In-Depth Port and Service Discovery using Nmap**
 
 ---
 
-## Skills & Tools
+## 🚀 Project Overview
 
-### Security Tools
+This project serves as the capstone assessment for the Federation University ITECH1502 Cybersecurity Fundamentals unit, demonstrating my ability to apply theoretical knowledge and practical skills. This portfolio acts as a career-ready showcase to strengthen my professional profile for internships or entry-level cybersecurity roles.
 
-* **Vulnerability scanning:** Nmap
-* **Network analysis:** Wireshark
-* **Penetration testing (intro):** Metasploit
-
-### Frameworks & Standards
-
-* NIST Cybersecurity Framework 2.0
-
-### Certification Goal
-
-* CompTIA Security+ (in progress)
+**Training Platform:** TryHackMe
+**Challenge Room:** Further Nmap
+**Core Topic:** Network Reconnaissance & Fundamental Vulnerability Scanning
 
 ---
 
-## Projects
+## 🎯 Project Goal/Objectives
 
-> The projects below were completed during ITECH1502 and reflect hands-on learning. Replace placeholder screenshots and links with your actual artifacts and GitHub repository links.
+By completing the TryHackMe challenge, the project aimed to achieve the following:
 
-### Vulnerability Scanning Exercise
-
-* **Platform:** TryHackMe — *Nmap* room
-* **Summary:** Practiced TCP/UDP port scanning, service/version detection and simple banner analysis.
-* **Example command:**
-
-```bash
-nmap -sV -p- --open --reason -oN nmap_scan_results.txt target_ip
-```
-
-* **Notes:** Screenshots show open port 80 and potential information disclosure. Include your screenshots in the repository (e.g. `/assets/images/nmap-scan.png`).
-
-### Incident Response Simulation
-
-* **Platform:** LetsDefend
-* **Summary:** Investigated simulated alerts, analysed logs, and drafted mitigation steps.
-* **Artifacts:** Include a short timeline, key logs used, and remediation steps in your repo (e.g. `/projects/incident-response/`).
-
-> *Add more project entries here (e.g., HackTheBox machine attempts, forensic case notes).*
+1.  **Master Advanced Nmap Usage:** Learn and successfully apply advanced Nmap scan types, such as the SYN scan (`-sS`), and understand port range specification.
+2.  **Accurate Service Identification:** Utilize Nmap's version detection feature (`-sV`) to accurately identify the service names and version numbers running on the target host's open ports.
+3.  **Consolidate Foundational Skills:** Translate classroom theory into practical skills, strengthening the ability to utilize tools for information gathering in controlled environments.
 
 ---
 
-## Learning Reflections
+## 🛠️ Methodology
 
-* **What I learned:** Hands-on scanning reinforced the role of vulnerability discovery in preventing attacks; I practiced common Nmap flags and learned to interpret scan output.
-* **Growth:** Improved troubleshooting and analytical skills useful for SOC roles.
-* **Next steps:** Attempt intermediate HackTheBox machines and explore Windows exploit development.
+The practical activity strictly followed a systematic network reconnaissance process, primarily using the **Nmap** tool.
 
----
-
-## Future Goals
-
-* Achieve **CompTIA Security+** certification.
-* Participate in more CTFs and HTB challenges.
-* Apply for internships to gain real-world SOC/IR experience.
-
----
-
-## Contact
-
-If you'd like to collaborate or provide feedback, please contact me via **LinkedIn** or **email**.
+1.  **Target Setup & Connection:** Register using the FedUni email and connect to the TryHackMe virtual machine environment.
+2.  **Port Discovery (Stealth Scan):**
+    * **Tool:** Nmap
+    * **Command Example:** `nmap -sS <Target_IP>`
+    * **Objective:** Use the stealthy SYN scan (`-sS`)—a faster and more inconspicuous method than a full TCP connect scan—to identify open ports.
+3.  **Service and Version Detection:**
+    * **Tool:** Nmap
+    * **Command Example:** `nmap -sV -p <Ports> <Target_IP>`
+    * **Objective:** Use version detection (`-sV`) to acquire precise service names and version numbers running on open ports, a crucial step for vulnerability identification.
+4.  **Evidence Collection & Analysis:** Carefully analyse the Nmap output to extract necessary information, and collect screenshots of the work, including the FedUni email for verification.
 
 ---
 
-### How to use this page on GitHub Pages
+## 🔍 Outcomes & Key Findings
 
-1. Create a repository named `yourusername.github.io` (for a user site) or a project repo for a project site.
-2. Add this file as `index.md` at the repository root.
-3. Commit your images to `/assets/images/` and update the image paths in the markdown.
-4. In repository settings enable **Pages** (use `main` branch and root folder) if needed.
-5. Wait a few minutes and visit `https://yourusername.github.io` to see the site.
+* **Skill Achievement:** Successfully applied Nmap's `-sS` and `-sV` parameters to accurately complete all network reconnaissance tasks on the target host.
+* **Evidence:** [**Insert the link to the screenshot of your Nmap scan results here, ensuring your FedUni email is visible for verification**].
+* **Conclusion:** This practice activity successfully consolidated my understanding of the reconnaissance process and the application of basic security measures and tool utilization skills.
 
 ---
 
-*Replace all placeholders (your name, LinkedIn URL, images, and repository links) with your actual details before publishing.*
+## 🧠 Reflection & Professional Growth
+
+| Dimension | Reflection Summary | Unit Learning Outcomes (LO) |
