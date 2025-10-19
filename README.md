@@ -45,7 +45,8 @@ The practical activity strictly followed a systematic network reconnaissance pro
 ## 🔍 Outcomes & Key Findings
 
 * **Skill Achievement:** Successfully applied Nmap's `-sS` and `-sV` parameters to accurately complete all network reconnaissance tasks on the target host.
-* **Evidence:** [**Insert the link to the screenshot of your Nmap scan results here, ensuring your FedUni email is visible for verification**].
+* **Evidence:** ![Uploading d439cfcaf2d5887858234b434538e7c.png…]()
+.
 * **Conclusion:** This practice activity successfully consolidated my understanding of the reconnaissance process and the application of basic security measures and tool utilization skills.
 
 ---
